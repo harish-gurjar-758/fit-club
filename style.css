@@ -1,0 +1,651 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ###############  Header  ###############  */
+header {
+    height: 70px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    float: left;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    float: right;
+}
+
+li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+li:hover {
+    color: orangered;
+}
+
+
+
+/* ###############  SECTION HERO  ###############  */
+
+.hero-section {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
+
+.hero-section img {
+    width: 50%;
+    height: 90vh;
+    display: inline-block;
+}
+
+.hero-section .hero-details {
+    width: 500px;
+    display: inline-block;
+    padding: 20px;
+    position: absolute;
+    top: 121px;
+    right: 153px;
+}
+
+.hero-section .hero-details h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.hero-section .hero-details h3 {
+    font-size: 45px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.hero-section .hero-details p {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.btn-rm {
+    width: 140px;
+    height: 50px;
+    color: white;
+    padding: 8px;
+    background-image: linear-gradient(blue, fuchsia);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-rm span {
+    font-size: 20px;
+
+}
+
+.btn-rm:hover {
+    color: darkgray;
+    background-image: linear-gradient(fuchsia, blue);
+}
+
+
+/* ###############  FIRST DIV DETAILS  ###############  */
+.first-top-div {
+    width: 100%;
+    height: 150vh;
+    margin-bottom: 50px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.first-top-div .pink-div {
+    width: 160px;
+    height: 160px;
+    background-color: #FFD6E8;
+    position: absolute;
+    top: 886px;
+    left: 109px;
+}
+
+.first-top-div .first-img {
+    width: 900px;
+    position: absolute;
+    top: 750px;
+    right: 60px;
+    z-index: 0;
+}
+
+.first-top-div .secound-img {
+    width: 900px;
+    position: absolute;
+    top: 800px;
+    right: 274px;
+    z-index: 1;
+}
+
+.first-top-div .thred-img {
+    width: 700px;
+    position: absolute;
+    top: 1000px;
+    right: 235px;
+    z-index: 2;
+}
+
+.first-top-div .first-div-details {
+    /* height: 90vh; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first-top-div .first-div-details .smol-container {
+    width: 200px;
+    height: 320px;
+    padding: 30px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    position: relative;
+    top: 690px;
+    z-index: 4;
+}
+
+.first-top-div .first-div-details .smol-container h1 {
+    color: blue;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.first-top-div .first-div-details .smol-container P {
+    font-size: 25PX;
+    margin-bottom: 40px;
+}
+
+.first-top-div .first-div-details .smol-container .more-btn {
+    font-size: 27px;
+    border-bottom: 3PX solid blue;
+}
+
+.first-top-div .first-div-details .smol-container .more-btn:hover {
+    color: gray;
+    border-bottom: 3PX solid ghostwhite;
+}
+
+
+/* ###############  FIRST DIV DETAILS  ###############  */
+
+.about-section {
+    width: 100%;
+    height: 250vh;
+    margin-top: 100px;
+}
+
+.about-section .about-top-contoner .about-details {
+    width: 500px;
+    padding: 30px;
+    margin-left: 130px;
+}
+
+.about-section .about-top-contoner .about-details h4 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.about-section .about-top-contoner .about-details h3 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.about-section .about-top-contoner .about-details p {
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.about-section .about-top-contoner .about-details details summary {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about-section .about-top-contoner .about-img .about-img-weva-1 {
+    width: 600px;
+    position: absolute;
+    top: 2070px;
+    right: 150px;
+}
+
+.about-section .about-top-contoner .about-img .about-img-2 {
+    width: 1100px;
+    position: absolute;
+    top: 2008px;
+    right: 60px;
+}
+
+.about-u-svg-content-1 {
+    width: 700px;
+    position: relative;
+    top: 300PX;
+    left: 400px;
+    z-index: 1;
+}
+
+.about-u-svg-content-2 {
+    width: 700px;
+    position: relative;
+    top: 150px;
+    right: 400px;
+    z-index: 2;
+}
+
+.about-img-3 {
+    width: 600px;
+    position: relative;
+    top: -400px;
+    left: 350px;
+    left: 440px;
+    z-index: 3;
+}
+
+.about-card {
+    width: 500px;
+    padding: 40px;
+    background-color: white;
+    box-shadow:
+        1px 1px 2px gray,
+        0 0 1em gray,
+        0 0 0.2em gainsboro;
+    border-radius: 10px;
+    position: absolute;
+    top: 3300px;
+    right: 110px;
+    z-index: 4;
+}
+
+.about-card h1 {
+    font-size: 60px;
+}
+
+
+
+/* ###############  About Us  ###############  */
+
+.about-us-top-div {
+    display: flex;
+    justify-content: center;
+}
+
+.about-us-container {
+    width: 400px;
+    padding: 30px;
+}
+
+.about-us-container h4 {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.about-us-container p {
+    font-size: 37px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.us-btn {
+    width: 230px;
+}
+
+.about-us-card {
+    width: 300px;
+    height: 240px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.about-us-card h3 {
+    font-size: 38px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about-us-card p {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.discover-div {
+    color: white;
+    background-image: linear-gradient(blue, fuchsia);
+}
+
+.combine-div {
+    background-color: gainsboro;
+    position: relative;
+    top: 200px;
+    right: -60px;
+}
+
+.combine-div h3 {
+    margin-top: 70px;
+    font-size: 30px !important;
+}
+
+
+
+/* midel div of about us */
+
+
+.about-us-midel-div {
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+
+}
+
+
+.about-us-midel-div .svg-us-first {
+    width: 500px;
+    float: right;
+    position: relative;
+    top: 200px;
+    right: 300px;
+    z-index: 1;
+}
+
+.about-us-midel-div .svg-us-secound {
+    width: 600px;
+    position: relative;
+    top: 350px;
+    left: 500px;
+    z-index: 2;
+}
+
+.about-us-midel-div .squre-img {
+    border-radius: 20px;
+}
+
+.about-us-midel-div .about-us-img-1 {
+    width: 350px;
+    height: 250px;
+    position: relative;
+    top: -180px;
+    left: 370px;
+    z-index: 3;
+}
+
+.about-us-midel-div .about-us-img-2 {
+    width: 350px;
+    position: relative;
+    top: -400px;
+    left: 600px;
+    z-index: 4;
+}
+
+.about-us-midel-div .about-us-img-3 {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    left: 650px;
+    z-index: 5;
+}
+
+.us-midel-card {
+    background-color: gainsboro;
+    width: 500px;
+    border-radius: 20px;
+    padding: 30px;
+    position: absolute;
+    top: 4850px;
+    left: 370px;
+    z-index: 6;
+}
+
+.us-midel-card .span-hed {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-top: 30px;
+}
+
+.us-midel-card h1 {
+    font-size: 60px;
+    margin-top: 30px;
+}
+
+.us-btn {
+    margin-top: 40px;
+}
+
+
+
+/* buttom div of about us */
+
+.about-us-buttom-div {
+    width: 100%;
+    height: 100vh;
+    margin-top: 300px;
+    margin-bottom: 300px;
+}
+
+.about-us-buttom-div .us-buttom-img-1 {
+    width: 700px;
+    position: relative;
+    top: 0px;
+    left: 300px;
+}
+
+.about-us-buttom-div .us-buttom-img-2 {
+    width: 700px;
+    position: relative;
+    top: 110px;
+    left: -460px;
+}
+
+.about-us-buttom-div .us-pink-div {
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    float: right;
+    position: relative;
+    top: 470px;
+    right: 380px;
+}
+
+.about-us-buttom-div .us-buttom-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    top: -40px;
+    left: 0px;
+    z-index: 4;
+}
+
+.about-us-buttom-div .us-buttom-card-container .card-view {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(217, 217, 234);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.about-us-buttom-div .us-buttom-card-container .card-view h1 {
+    font-size: 50px;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-us-buttom-div .us-buttom-card-container .card-view p {
+    font-size: 18px;
+    line-height-step: 2px;
+    margin-bottom: 20px;
+}
+
+.about-us-buttom-div .us-buttom-card-container .card-view-1:hover {
+    background-image: linear-gradient(fuchsia,blue);
+    color: white;
+}
+
+.about-us-buttom-div .us-buttom-card-container .card-view-1 h1:hover{
+    color: white;
+}
+
+
+.about-us-buttom-div .us-buttom-card-container .card-view-2{
+    background-image: linear-gradient(fuchsia,blue);
+    color: white;
+}
+
+.about-us-buttom-div .us-buttom-card-container .card-view-2:hover{
+    background-color: gray;
+    /* background-image: linear-gradient(fuchsia,blue); */
+    /* background-color: red; */
+}
+
+
+/* ###############  CONTACT SECTION  ###############  */
+.contact-section{
+    width: 100%;
+    margin-top: 200px;
+}
+
+.contact-section .u-svg-content{
+    width: 700px;
+    height: 700px;
+}
+
+.contact-section .contact-svg-1{
+    position: relative;
+    top: 30px;
+    left: 500px;
+    z-index: 2;
+}
+
+.contact-section .contact-svg-2{
+    position: relative;
+    top: 300px;
+    left: -300px;
+    z-index: 1;
+}
+
+.contact-section .contact-img{
+    width: 650px;
+    position: relative;
+    top: -550px;
+    left: 300px;
+    z-index: 3;
+}
+
+
+.contact-section form{
+    width: 600px;
+    height: 370px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    position: relative;
+    top: -700px;
+    left: 200px;
+    z-index: 4;
+}
+
+.contact-section form .label-box{
+    display: flex;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-section form .input-box{
+    width: 100%;
+    height: 30px;
+    border: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+    background-color: gainsboro;
+}
+
+.contact-section form hr{
+    margin-bottom: 10px;
+}
+
+
+.contact-section form label .pri-span{
+    font-size: 20px !important;
+    margin-bottom: 10px;
+}
+
+.contact-section form label .pink-pri-span{
+    color: palevioletred;
+}
+
+.contact-section form button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #8A3FFC;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+.contact-section form button:hover{
+    background-color: palevioletred;
+}
+
+.map-div{
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 7520px;
+}
+
+.map-div iframe{
+    width: 100%;
+    height: 600px;
+}
+
+
+/* ###############  Footer  ###############  */
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 10PX;
+}
+
+center {
+    padding-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer img {
+    border-radius: 50%;
+}
